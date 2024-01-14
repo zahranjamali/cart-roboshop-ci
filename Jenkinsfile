@@ -3,6 +3,7 @@
 @Library('jenkins-shared-lib-rev')_
 
 pipeline {
+    agent any
     stages {
         stage('docker Build') {
             steps {
